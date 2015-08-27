@@ -31,7 +31,7 @@ import org.openide.windows.TopComponent;
 )
 @DataObject.Registration(
         mimeType = "text/frege",
-        iconBase = "org/netbeans/modules/frege/images/frege16.png",
+        iconBase = "org/netbeans/modules/frege/images/fregefile.png",
         displayName = "#LBL_Frege_LOADER",
         position = 300
 )
@@ -101,7 +101,7 @@ public class FregeDataObject extends MultiDataObject {
 
     @MultiViewElement.Registration(
             displayName = "#LBL_Frege_EDITOR",
-            iconBase = "org/netbeans/modules/frege/images/frege16.png",
+            iconBase = "org/netbeans/modules/frege/images/fregefile.png",
             mimeType = "text/frege",
             persistenceType = TopComponent.PERSISTENCE_ONLY_OPENED,
             preferredID = "Frege",
