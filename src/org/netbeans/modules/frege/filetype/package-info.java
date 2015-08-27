@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-@TemplateRegistration(folder = "Other", content = "FregeTemplate.fr",displayName = "Frege File")
+@TemplateRegistration(folder = "Frege", content = "Frege.fr",
+        iconBase = "org/netbeans/modules/frege/images/fregefile.png",
+        displayName = "Frege File")
 package org.netbeans.modules.frege.filetype;
 
 import org.netbeans.api.templates.TemplateRegistration;
