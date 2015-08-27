@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 @TemplateRegistration(folder = "Frege", content = "Frege.fr",
-        iconBase = "org/netbeans/modules/frege/images/fregefile.png",
+        iconBase = "org/netbeans/modules/frege/resource/fregefile.png",
         displayName = "Frege File")
 package org.netbeans.modules.frege.filetype;
 

@@ -19,7 +19,7 @@ import org.openide.windows.TopComponent;
 
 @MultiViewElement.Registration(
         displayName = "#LBL_Frege_VISUAL",
-        iconBase = "org/netbeans/modules/frege/images/frege16.png",
+        iconBase = "org/netbeans/modules/frege/resource/frege16.png",
         mimeType = "text/frege",
         persistenceType = TopComponent.PERSISTENCE_NEVER,
         preferredID = "FregeVisual",
