@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 AutoUpdate-Show-In-Client: true
 OpenIDE-Module: org.netbeans.modules.frege
+OpenIDE-Module-Layer: org/netbeans/modules/frege/layer.xml
 OpenIDE-Module-Localizing-Bundle: org/netbeans/modules/frege/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
 
