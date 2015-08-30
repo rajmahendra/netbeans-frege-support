@@ -11,7 +11,32 @@ package org.netbeans.modules.frege.editor;
  */
 public enum TokenType {
 
-    
+    NEWLINE(1, ""),
+    CONSTRUCTOR_ID(2, ""),
+    VARIABLE_ID(3, ""),
+    LETTER(4, ""),
+    INTEGER(5, ""),
+    HEXADECIMAL(6, ""),
+    OCTAL(7, ""), 
+    DECIMAL(8, ""), 
+    DIGIT(9, ""), 
+    HEXIT(10, ""), 
+    OCTIT(11, ""), 
+    LEFT_CURLY(12, "{"), 
+    RIGHT_CURLY(13, "}"),
+    SEMICOLON(14, ";"), 
+    LEFT_PAREN(15, "("), 
+    RIGHT_PAREN(16, ")"), 
+    LEFT_BRACKET(17, "["), 
+    RIGHT_BRACKET(18, "]"),
+    COMMA(19, ","), 
+    INFIX_QUOTE(20, "`"), 
+    VARSYM(21, ""), 
+    CONSYM(22, ""), 
+    LOWER_CASE(23, ""), 
+    UPPER_CASE(24, ""),
+    SYMBOL(25, ""), 
+    UNANTICIPATED_SYMBOL(26, ""),
     AS(27, "as"),
     CASE(28, "case"),
     CLASS(29, "class"),
@@ -36,7 +61,16 @@ public enum TokenType {
     QUALIFIED(48, "qualified"),
     THEN(49, "then"),
     TYPE(50, "type"),
-    WHERE(51, "where");
+    WHERE(51, "where"),
+    CONTEXT_ARROW(52, "=>"),
+    EQUALS(53, "="),
+    ALT(54, "|"),
+    OFTYPE(55, "::"),
+    WS(56, " "),
+    COMMENT(57, ""),
+    LINE_COMMENT(58, ""),
+    BLOCK_COMMENT(59, ""),
+    ERR_CHAR(60, "");
 
     public int id;
     public String category;
