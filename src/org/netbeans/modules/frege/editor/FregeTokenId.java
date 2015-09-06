@@ -25,14 +25,17 @@ public class FregeTokenId implements TokenId {
         this.id = id;
     }
 
+    @Override
     public String primaryCategory() {
         return primaryCategory;
     }
 
+    @Override
     public int ordinal() {
         return id;
     }
 
+    @Override
     public String name() {
         return name;
     }
